@@ -5,7 +5,7 @@
 This repo was created to demonstrate issues I am facing with the [GitHub Super-Linter](https://github.com/github/super-linter)
 running [Psalm](https://psalm.dev/) to detect bugs in PHP code.
 
-This code runs on PHP 7.4 
+This code runs on PHP 7.4
 
 ## Development
 
