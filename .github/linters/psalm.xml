@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<psalm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://getpsalm.org/schema/config" xmlns="https://getpsalm.org/schema/config">
+    <projectFiles>
+        <directory name="restServer" />
+        <directory name="tests" />
+    </projectFiles>
+    <issueHandlers>
+        <ReservedWord errorLevel="suppress" />
+        <PropertyNotSetInConstructor>
+            <errorLevel type="suppress">
+                <directory name="tests" /> <!-- all PropertyNotSetInConstructor issues in this directory are suppressed -->
+            </errorLevel>
+        </PropertyNotSetInConstructor>
+        <MissingFile>
+            <errorLevel type="suppress">
+                <directory name="tests" />
+            </errorLevel>
+        </MissingFile>
+        <PossiblyNullPropertyFetch>
+            <errorLevel type="suppress">
+                <directory name="tests" />
+            </errorLevel>
+        </PossiblyNullPropertyFetch>
+        <PossiblyInvalidPropertyFetch>
+            <errorLevel type="suppress">
+                <directory name="tests" />
+            </errorLevel>
+        </PossiblyInvalidPropertyFetch>
+        <PossiblyNullArgument>
+            <errorLevel type="suppress">
+                <directory name="tests" />
+            </errorLevel>
+        </PossiblyNullArgument>
+    </issueHandlers>
+</psalm>

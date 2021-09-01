@@ -1,0 +1,13 @@
+{
+    "name": "tylervz/example-php-lint",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "codeception/codeception": "5.0.x-dev",
+        "codeception/module-asserts": "^1.0.0",
+        "squizlabs/php_codesniffer": "3.*",
+        "phpstan/phpstan": "0.12.x-dev",
+        "vimeo/psalm": "^3.12"
+    }
+}

@@ -1,0 +1,8 @@
+parameters:
+    level: 5
+    paths:
+        - ../../restServer
+        - ../../tests
+    # Relative paths are resolved based on the directory of the config file is in.
+    scanDirectories:
+        - ../../restServer
