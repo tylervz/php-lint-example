@@ -25,7 +25,11 @@ Add a --root=[your/project/directory] flag to specify a particular project to ru
 but this is not too bad since `phpstan` still runs and can highlight corrections that need to be made
 in `ServerTest.php` and any other Codeception unit test.
 
-When running locally on my machine using the commands described below, all of the linters run without an error.
+When running on the `master` branch locally on my machine using the commands described below, all of the linters run without an error.
+
+On the `violation` branch, Psalm finds errors when running locally.
+However, when that branch was pushed, the [Super-Linter run](https://github.com/tylervz/php-lint-example/runs/3487808931?check_suite_focus=true)
+did not have Psalm output any errors other than the usual `Could not find any composer autoloaders in /github/workspace/`.
 
 ## Development
 
