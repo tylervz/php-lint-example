@@ -5,8 +5,8 @@ namespace restServer;
 class Server
 {
 
-    protected int $id;
-    protected string $protocol;
+    $id;
+    string $protocol;
     protected string $domain;
     protected string $description;
 
